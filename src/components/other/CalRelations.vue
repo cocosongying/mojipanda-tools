@@ -1,6 +1,17 @@
 <template>
   <div id="tool" class="container" style="width:80%">
     <br />
+    <br />
+    <v-breadcrumb>
+      <v-breadcrumb-item>
+        <a href="/">磨叽熊猫</a>
+      </v-breadcrumb-item>
+      <v-breadcrumb-item>
+        <a href="/tools">工具</a>
+      </v-breadcrumb-item>
+      <v-breadcrumb-item>亲戚关系计算器</v-breadcrumb-item>
+    </v-breadcrumb>
+    <br />
     <v-alert
       type="info"
       message="说明"
@@ -63,13 +74,11 @@
     <v-card title="计算结果">
       <span>{{ result }}</span>
     </v-card>
-    <Footer />
   </div>
 </template>
 
 <script>
 import relationship from "relationship.js";
-import Footer from "@/components/base/Footer.vue";
 export default {
   data() {
     return {
@@ -79,9 +88,6 @@ export default {
       reverse: "0",
       chain: ""
     };
-  },
-  components: {
-    Footer
   },
   methods: {
     tabOnChange(tabKey) {
