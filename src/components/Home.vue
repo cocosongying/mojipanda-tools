@@ -17,7 +17,9 @@
     </v-card>
     <br />
     <v-card title="图片工具">
-      <v-button type="primary">待续</v-button>
+      <a href="mask">
+        <v-button type="primary">头像戴口罩</v-button>
+      </a>
       <br />
     </v-card>
   </div>
