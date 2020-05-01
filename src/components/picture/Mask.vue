@@ -12,7 +12,7 @@
       <v-breadcrumb-item>头像戴口罩</v-breadcrumb-item>
     </v-breadcrumb>
     <br />
-    <v-alert type="info" message="说明" description="请先选择图片，再选择口罩样式，在预览区域调整口罩位置、角度、缩放大小等，最后点击下载按钮即可"></v-alert>
+    <v-alert type="info" message="说明" description="请先选择图片，再选择口罩样式，在预览区域调整口罩位置、角度、缩放大小等，最后点击下载按钮即可。如果文件打开失败可尝试使用其他浏览器访问"></v-alert>
     <br />
     <v-card title="头像戴口罩">
       <span>选择图片</span>
