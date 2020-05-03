@@ -78,7 +78,7 @@ export default {
     ];
     return {
       fileName: "",
-      maskBasic: "/img/mask/",
+      maskBasic: process.env.BASE_URL + "img/mask/",
       maskStyle: 0,
       imgSize: 240,
       masks,
